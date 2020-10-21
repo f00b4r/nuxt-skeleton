@@ -1,0 +1,23 @@
+{
+  "name": "stackuj",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/axios": "^5.12.2",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.11.0",
+    "@nuxt/types": "^2.14.5",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@nuxtjs/tailwindcss": "^3.1.0"
+  }
+}

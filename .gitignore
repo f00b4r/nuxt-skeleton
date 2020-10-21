@@ -1,0 +1,12 @@
+# Nuxt
+/.nuxt
+/dist
+
+# Node
+/node_modules
+
+# ENV
+.env
+
+# Vercel
+.vercel
