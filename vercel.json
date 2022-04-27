@@ -1,10 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    {
-    "src": "nuxt.config.js",
-    "use": "@nuxtjs/now-builder",
-    "config": {}
-    }
-  ]
+  "github": {
+    "enabled": true,
+    "autoJobCancelation": true,
+    "silent": true
+  }
 }

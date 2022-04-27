@@ -9,11 +9,11 @@ export default {
 
   // https://nuxtjs.org/guides/configuration-glossary/configuration-head
   head: {
-    title: 'Stackuj',
+    title: 'Nuxt Skeleton',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-      { name: 'author', content: 'NX1' },
+      { name: 'author', content: 'f00b4r' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -42,6 +42,10 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
   ],
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-generate
+  generate: {
+  },
 
   // https://tailwindcss.nuxtjs.org/
   tailwindcss: {

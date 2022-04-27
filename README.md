@@ -1,4 +1,4 @@
-# Stackuj
+# Nuxt Skeleton
 
 [Nuxt.js](https://nuxtjs.org) - Open Source Intuitive Vue Framework
 
@@ -6,7 +6,7 @@
 
 - Vue 2+
 - Nuxt 2+
-- Node.js 14+
+- Node.js 16+
 
 ## Development
 
