@@ -30,11 +30,6 @@ export default {
 
   // https://nuxtjs.org/guides/configuration-glossary/configuration-build
   build: {
-    babel: {
-      plugins: [
-        '@babel/plugin-proposal-optional-chaining'
-      ]
-    }
   },
 
   // https://nuxtjs.org/guides/configuration-glossary/configuration-modules#buildmodules
